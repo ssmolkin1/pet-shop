@@ -12,5 +12,8 @@ contract Adoption {
     return petID;
   }
 
-  
+  // Retreiving the adopters
+  function getAdopters() public view returns (address[16]) {
+    return adopters;
+  }
 }
